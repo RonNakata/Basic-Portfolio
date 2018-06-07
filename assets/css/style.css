@@ -89,7 +89,36 @@ h1 {
 
 .floatmyimg{
     float: left;
-    margin-right: 15px;
+    margin-right: 10px;
+}
+
+.floatmyproject{
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px; 
+    margin-bottom: 20px;
+
+}
+
+.floatprojectimg{
+    margin-right: 20px;
+}
+
+.floatbanner{
+    box-sizing: border-box;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    left: 0px;
+    bottom: 70px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
 }
 .clearfix::after {
     content: "";
